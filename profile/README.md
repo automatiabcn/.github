@@ -1,50 +1,46 @@
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/automatiabcn/.github/main/profile/logo.png" alt="Automatia BCN" width="120" height="120"/>
 
 # Automatia BCN
-
 **Automate the Chaos**
-
-AI-powered software, automation & digital transformation solutions.<br/>
-Built in Barcelona — solo founder operation, pragmatic engineering.
-
-[Website](https://automatiabcn.com) · [Twitter](https://x.com/automatiabcn) · [Reddit](https://reddit.com/user/SignificantLime151) · [Email](mailto:support@automatiabcn.com)
-
 </div>
 
----
+## Who we are
 
-## What we build
+Automatia BCN is a founder-led software company from Barcelona ([Enes Eserkan](https://github.com/enzoemir1)). We build AI developer tooling and automation products — self-hosted by default, so the code and data stay under the user's control.
 
-### [ABS — Automation Backbone System](https://github.com/automatiabcn/abs)
+## ABS Studio
 
-Self-hosted AI orchestrator. **100+ MCP tools**, **6-provider cascade** (Anthropic + Groq + Cerebras + Gemini + Cloudflare + Cohere), RAG hybrid retrieval, license-protected.
+An AI code editor (VS Code fork) with a self-hosted orchestration server. Your code stays where it is; the editor talks to a server you run.
 
-- **$299** one-time · BSL 1.1 · lifetime updates
-- Customer hosts on their own VPS — data stays private
-- Activation gate, hardware fingerprint, tamper detection
-- Stripe-ready billing, refund flow, customer portal
+- Proposed edits are graded by a judge model before you see them — score and reasoning, not a diff on faith.
+- A code graph shows the blast radius of a change before it lands.
+- Checks run in the OS's own sandbox and report honestly — a check that didn't run is never shown as passed.
+- Checkpoint-based undo and commits that carry evidence of what was graded and what ran.
 
-### Plus open-source MCP servers
+Repo: [automatiabcn/abs](https://github.com/automatiabcn/abs) — source-available (BUSL-1.1), CI + CodeQL + nightly Lighthouse, 2,600+ tests. Downloads and pricing: [automatiabcn.com](https://automatiabcn.com).
 
-[adops-mcp](https://github.com/enzoemir1/adops-mcp) · [shopops-mcp](https://github.com/enzoemir1/shopops-mcp) · [invoiceflow-mcp](https://github.com/enzoemir1/invoiceflow-mcp) · [leadpipe-mcp](https://github.com/enzoemir1/leadpipe-mcp) · [ai-arena-playground](https://github.com/enzoemir1/ai-arena-playground) · [n8n-cost-calculator](https://github.com/enzoemir1/n8n-cost-calculator)
+## Open source
 
-## What we believe
+MIT, TypeScript, tests and CI.
 
-- **You shouldn't pay $1,000+/month** for AI tooling that runs on someone else's server.
-- **Open is good, lock-in is not.** Source-available code, customer-owned data, transparent pricing.
-- **Pragmatic over perfect.** Ship the thing, iterate, listen.
+| Project | What it does |
+|---|---|
+| [leadpipe-mcp](https://github.com/automatiabcn/leadpipe-mcp) | Lead qualification — ingest, enrich, score, export to CRM |
+| [invoiceflow-mcp](https://github.com/automatiabcn/invoiceflow-mcp) | Invoice automation — PDF invoices, late-payment risk, cash flow |
+| [shopops-mcp](https://github.com/automatiabcn/shopops-mcp) | E-commerce operations — inventory, pricing, RFM, anomalies |
+| [adops-mcp](https://github.com/automatiabcn/adops-mcp) | Google Ads & Meta Ads analytics |
+| [mcp-server-starter](https://github.com/automatiabcn/mcp-server-starter) | Minimal production-ready MCP server template |
+| [ai-arena-playground](https://github.com/automatiabcn/ai-arena-playground) | Compare models side by side, self-hosted |
+| [cacheflow-ai](https://github.com/automatiabcn/cacheflow-ai) | AI API cost optimizer — caching and free-tier routing |
 
-## Connect
+## Principles
 
-- Website: [automatiabcn.com](https://automatiabcn.com)
-- Twitter / X: [@automatiabcn](https://x.com/automatiabcn)
-- Reddit: [u/SignificantLime151](https://reddit.com/user/SignificantLime151)
-- Email: [support@automatiabcn.com](mailto:support@automatiabcn.com)
+- Your data stays yours: self-hosted first.
+- Source-available over lock-in.
+- Honest engineering: a check that didn't run is never reported as passed.
+- Ship small, verify, iterate.
 
----
+## Contact
 
-<div align="center">
-<sub>Made with passion in Barcelona — open to community feedback. <em>Automate the chaos.</em></sub>
-</div>
+[automatiabcn.com](https://automatiabcn.com) · [x.com/automatiabcn](https://x.com/automatiabcn) · info@automatiabcn.com
