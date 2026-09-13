@@ -7,7 +7,7 @@
 
 ## Who we are
 
-Automatia BCN is a founder-led software company from Barcelona ([Enes Eserkan](https://github.com/enzoemir1)). We build AI developer tooling and automation products — self-hosted by default, so the code and data stay under the user's control.
+Automatia BCN is a founder-led software company, founded in Barcelona and now based in Perth, Australia ([Enes Eserkan](https://github.com/enzoemir1)). We build AI developer tooling and automation products — self-hosted by default, so the code and data stay under the user's control.
 
 ## ABS Studio
 
