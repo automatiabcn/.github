@@ -33,6 +33,7 @@ MIT, TypeScript, tests and CI.
 | [mcp-server-starter](https://github.com/automatiabcn/mcp-server-starter) | Minimal production-ready MCP server template |
 | [ai-arena-playground](https://github.com/automatiabcn/ai-arena-playground) | Compare models side by side, self-hosted |
 | [cacheflow-ai](https://github.com/automatiabcn/cacheflow-ai) | AI API cost optimizer — caching and free-tier routing |
+| [code-judge-bench](https://github.com/automatiabcn/code-judge-bench) | Real-bug PASS/FAIL pairs for code-review judges — dataset, eval harness, honest results |
 
 ## Principles
 
